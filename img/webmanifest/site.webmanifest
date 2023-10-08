@@ -1,0 +1,14 @@
+{
+    "name": "匕",
+    "short_name": "",
+    "icons": [
+        {
+            "src": "icon.jpg",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#000000d6",
+    "background_color": "#101010",
+    "display": "fullscreen "
+}
