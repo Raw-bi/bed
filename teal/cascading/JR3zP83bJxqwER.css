@@ -7945,9 +7945,10 @@ main {
   box-shadow: 1px 1px 1px 0 var(--pr)!important
 }
 
-.u-boxShadow4px12pxBlackLightest {
-  -webkit-box-shadow: 0 4px 12px 0 rgba(var(--tc-rgb),.05)!important;
-  box-shadow: 0 4px 12px 0 rgba(var(--tc-rgb),.05)!important
+
+  .u-boxShadowLight {
+  /* -webkit-box-shadow: 0 4px 12px 0 rgba(var(--tc-rgb),.05)!important; */
+  box-shadow: var(--shadow-light)!important
 }
 
 .u-boxShadow101035BlackLighter {
@@ -14851,7 +14852,7 @@ body.is-swBoot {
 }
 
 .avatar-image,.avatar-image img {
-  background: rgba(var(--pr-rgb),.05);
+  /* background: rgba(var(--pr-rgb),.05); */
   aspect-ratio: 1;
   overflow: hidden;
   display: inline-block;
@@ -19136,15 +19137,15 @@ hr.homeHr {
 .metabar {
   position: absolute;
   display: block;
-  z-index: 500;
+  z-index: 10;
   width: 100%;
-  font-size: 16px;
+  /* font-size: 16px; */
   background: rgba(var(--bg-rgb),.97);
   color: rgba(var(--tc-rgb),.54);
   
-  letter-spacing: 0;
+  /* letter-spacing: 0;
   font-weight: 400;
-  font-style: normal;
+  font-style: normal; */
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   top: 0
@@ -19169,7 +19170,7 @@ hr.homeHr {
 
 .metabar--spacer {
   position: relative;
-  z-index: 100
+  z-index: 1
 }
 
 .metabar-block:not(.metabar-block--center) {
@@ -30318,7 +30319,6 @@ img.lazyload:not([src]) {
 .graf-image {
   width: 100%;
     height: 100%;
-    filter: var(--filter-low);
 }
 
 
@@ -30414,9 +30414,18 @@ svg.icon-premium-star {
   vertical-align: text-bottom;
 }
 
+.section-content .section-inner:nth-child(n+4) {
+  content-visibility: auto;
+  contain-intrinsic-size: 1000px;
+}
 
+.shadow-thin {
+  box-shadow: var(--shadow-thin);
+}
 
-
+.graf--h4.graf-after--figure {
+  color: var(--pr);
+}
 /* fix :end */
 
 
@@ -30465,12 +30474,13 @@ span.svgIcon.Subscribe {
 }
   }
 
-  .u-bgColorPrimary .mixPrimary  {
-    mix-blend-mode: var(--caing-mix)
+  .u-bgColorPrimary .mixPrimary,
+  .u-bgColorPrimary img.ls-blur-up-img.ls-blur-up-loaded.ls-inview  {
+    mix-blend-mode: var(--pr-mix)
     }
 
     .u-background--bwLighter {
-      background-color: var(--tc-bw);
+      background-color: var(--bg-3);
     }
     
     .u-textColor--bp {
@@ -30517,36 +30527,59 @@ span.svgIcon.Subscribe {
 
 
 :root {
+  
+
+  /* --bg-rgb: 244, 242, 237;
+  --bg-rgb: 239, 238, 234; */
+
+  --bg-rgb: 238, 237, 233;
+  --bg-rgb-d:16, 16, 16;
   --bg: rgb(var(--bg-rgb));
 
-  --bg-rgb: 244, 242, 237;
-  --bg-rgb: 239, 238, 234;
-  --bg-rgb: 238, 237, 233;
-  --tc: rgba(var(--tc-rgb),0.84);
   --tc-rgb: 0, 0, 0;
+  --tc-rgb-d: 134, 134, 139;
+  --tc: rgba(var(--tc-rgb),0.84);
 
-  --tc-bw: var(--tc);
+
+  --bg-3: var(--tc);
+  --bg-3-d: #242426;
   --tc-bp: var(--bg);
 
-  --tf: var(--tfw) var(--tfs)/1.6 var(--tff);
+  
   --tfw: 300;
+  --tfw-d:250;
   --tfs: 24px;
   --tff: "Matter", "Bi", var(--spart);
   --spart: "Segoe UI", "Helvetica Neue", Arial, "Hiragino Sans GB", "PingFang SC", "Heiti SC", "Noto Sans CJK SC", "Source Han Sans SC", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
-
+  --tf: var(--tfw) var(--tfs)/1.6 var(--tff);
 
   
-  --th: var(--thw) var(--ths)/1.2 var(--thf);
+  
   --thw: 600;
   --ths: 50px;
   --thf: "Tide Informal","Tide", var(--spart);
+  --th: var(--thw) var(--ths)/1.2 var(--thf);
 
-
-  --pr: rgb(var(--pr-rgb));
   --pr-rgb: 3, 168, 124;
   --pr-rgb: 50, 79, 255;
+  --pr-rgb-d:3, 168, 124;
+  --pr: rgb(var(--pr-rgb));
+
+
   --caing-rgb: 53, 76, 155;
+  --caing-rgb-d: 95, 116, 192;
   --caing-mix: screen;
+  --caing-mix-d: darken;
+
+  --shadow-thin:var(--sd-thin);
+  --sd-thin: rgba(0, 0, 0, 0.4) 0.125rem 0.125rem 0.25rem 0px;
+  --shadow-light:var(--sd-light);
+  --sd-light: 0 3px 9px 0 rgba(var(--tc-rgb),.06);
+  --sd-none: none;
+
+  
+
+  
 
 }
 
@@ -30566,16 +30599,27 @@ span.svgIcon.Subscribe {
 
 [data-user-color-scheme="dark"] {
  
-  --bg-rgb: 16, 16, 16;
-  --tc-rgb: 134, 134, 139;
-  --tfw: 250;
+  --bg-rgb: var(--bg-rgb-d);
+  --tc-rgb: var(--tc-rgb-d);
+  --tfw: var(--tfw-d);
+  --pr: rgb(var(--pr-rgb-d));
+  
+  
+  
 
-  --tc-bw: #292929;
+  --bg-3: var(--bg-3-d);
+  
+  
   --tc-bp: var(--pr);
 
-  --caing-rgb: 95, 116, 192;
-  --caing-mix: darken;
+  --caing-rgb: var(--caing-rgb-d);
+  --caing-mix: var(--caing-mix-d);
+  
+  
   --filter-low: brightness(.9) grayscale(.2) contrast(.9);
+
+  --sd-thin:var(--sd-none);
+  --sd-light:var(--sd-none);
 
   
 }
