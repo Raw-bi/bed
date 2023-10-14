@@ -7124,6 +7124,10 @@ main {
       width: 90px!important
   }
 
+  .u-xs-width111 {
+    width: 111px!important
+}
+
   .u-xs-width120 {
       width: 120px!important
   }
@@ -9697,18 +9701,17 @@ main {
 }
 
 .uiScale-ui--large .ui-h2 {
-  --x-height-multiplier: 0.342!important;
+  /* --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
   letter-spacing: -.02em!important;
-  font-weight: 700!important;
+
   font-style: normal!important;
   
   font-size: 33px!important;
   line-height: 36px!important;
   -webkit-transform: translateY(.76px);
-  transform: translateY(.76px);
-  letter-spacing: -.79px!important
+  transform: translateY(.76px); */
+  letter-spacing: -.8px!important
 }
 
 .v-glyph--m2 .uiScale-ui--large .ui-h2 {
@@ -10057,17 +10060,17 @@ main {
 }
 
 .uiScale-ui--large .ui-body,.uiScale-ui--large .ui-summary {
-  --x-height-multiplier: 0.342!important;
+  /* --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
   font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
-  font-style: normal!important;
+  font-style: normal!important; */
   
   font-size: 21px!important;
-  line-height: 28px!important;
+  /* line-height: 28px!important;
   -webkit-transform: translateY(.12px);
-  transform: translateY(.12px)
+  transform: translateY(.12px) */
 }
 
 .v-glyph--m2 .uiScale-ui--large .ui-body,.v-glyph--m2 .uiScale-ui--large .ui-summary {
@@ -30424,8 +30427,10 @@ svg.icon-premium-star {
 }
 
 .graf--h4.graf-after--figure {
-  color: var(--pr);
+  color: var(--h4);
 }
+
+
 /* fix :end */
 
 
@@ -30487,6 +30492,20 @@ span.svgIcon.Subscribe {
       color: var(--tc-bp);
       fill: var(--tc-bp);
     }
+
+    #footer {
+      opacity: 0;
+  }
+  
+  #footer.visible {
+      visibility: visible;
+      opacity: 1;
+      animation-name: fadeIn;
+      animation-duration: 1500ms;
+      animation-timing-function: cubic-bezier(0, 0, 0.4, 1);
+      animation-fill-mode: both;
+      transition: opacity 1500ms, filter 1500ms;
+  }
  
 
 
@@ -30564,6 +30583,8 @@ span.svgIcon.Subscribe {
   --pr-rgb: 50, 79, 255;
   --pr-rgb-d:3, 168, 124;
   --pr: rgb(var(--pr-rgb));
+
+  --h4: var(--pr);
 
 
   --caing-rgb: 53, 76, 155;
