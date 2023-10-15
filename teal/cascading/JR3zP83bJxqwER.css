@@ -25378,6 +25378,15 @@ section.is-sectionUsingCanvas.is-imageBackgrounded .section-backgroundImage {
   box-sizing: border-box
 }
 
+.sectionLayout--outsetColumnL, .sectionLayout--outsetRowL {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 65px;
+  padding-right: 65px;
+  max-width: 1080px;
+  position: relative;
+}
+
 .sectionLayout--outsetColumnXL, .sectionLayout--outsetRowXL {
   margin-left: auto;
   margin-right: auto;
@@ -25431,6 +25440,7 @@ section.is-sectionUsingCanvas.is-imageBackgrounded .section-backgroundImage {
 }
 
 @media screen and (max-width: 1199px) {
+  .sectionLayout--outsetColumnL, .sectionLayout--outsetRowL,
   .sectionLayout--outsetColumnXL, .sectionLayout--outsetRowXL,
   .sectionLayout--outsetColumnXXL, .sectionLayout--outsetRowXXL,
   .sectionLayout--outsetColumnXXXL, .sectionLayout--outsetRowXXXL {
@@ -25446,7 +25456,7 @@ section.is-sectionUsingCanvas.is-imageBackgrounded .section-backgroundImage {
 }
 
 @media screen and (max-width: 767px) {
-
+  .sectionLayout--outsetColumnL, .sectionLayout--outsetRowL,
   .sectionLayout--outsetColumnXL, .sectionLayout--outsetRowXL,
   .sectionLayout--outsetColumnXXL, .sectionLayout--outsetRowXXL,
   .sectionLayout--outsetColumnXXXL, .sectionLayout--outsetRowXXXL {
@@ -25601,7 +25611,6 @@ img.bg-transparent.lazyloaded
 }
 
 .graf--layoutOutsetCenter .graf-image {
-
   margin: 0
 }
 
@@ -27037,11 +27046,13 @@ section.is-imageBackgrounded+section.is-imageBackgrounded {
 }
 
 .sectionLayout--outsetColumn,.sectionLayout--outsetRow {
-  margin-top: 52px
+  /* margin-top: 52px */
 }
 
+
+
 .sectionLayout--outsetColumn+.sectionLayout--fullWidth,.sectionLayout--outsetColumn+.sectionLayout--insetColumn,.sectionLayout--outsetRow+.sectionLayout--fullWidth,.sectionLayout--outsetRow+.sectionLayout--insetColumn {
-  margin-top: 52px
+  /* margin-top: 52px */
 }
 
 .postArticle--short .postArticle-content .graf--p {
@@ -30323,7 +30334,9 @@ img.lazyload:not([src]) {
   width: 100%;
     height: 100%;
 }
-
+.graf-image svg {
+  display: block;
+}
 
 
 .graf-image.aspect13 {
@@ -30420,6 +30433,10 @@ svg.icon-premium-star {
 .section-content .section-inner:nth-child(n+4) {
   content-visibility: auto;
   contain-intrinsic-size: 1000px;
+}
+
+.section-content .section-inner.content-visibility {
+  content-visibility: visible;
 }
 
 .shadow-thin {
