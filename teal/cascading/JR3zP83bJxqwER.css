@@ -30654,13 +30654,14 @@ span.svgIcon.Subscribe {
 
   --h4: var(--pr);
 
+  
 
   --caing-rgb: 53, 76, 155;
   --caing-rgb-d: 95, 116, 192;
   --caing-mix: screen;
   --caing-mix-d: darken;
 
-
+  --pr-mix: darken;
 
   --yic-mix: darken;
   --yic-mix-d: none;
