@@ -27000,7 +27000,6 @@ hr.section-divider:before {
 
 .graf--figure.graf-after--blockquote,.graf--figure.graf-after--p,.graf--mixtapeEmbed.graf-after--blockquote,.graf--mixtapeEmbed.graf-after--p,.graf--pre.graf-after--blockquote,.graf--pre.graf-after--p,.postList+.graf--figure,.postList+.graf--mixtapeEmbed,.postList+.graf--pre {
   margin-top: 50px;
-  margin-top: 30px;
 }
 
 .graf--figure.graf-after--h2,.graf--mixtapeEmbed.graf-after--h2,.graf--pre.graf-after--h2 {
@@ -30462,6 +30461,34 @@ svg.icon-premium-star {
 }
 
 
+.yic {
+  background-color: var(--bg);
+}
+
+.yic .graf-image--src {
+  mix-blend-mode: var(--yic-mix);
+  filter: var(--yi-filter);
+}
+
+.yi-borderRL {
+  border-right: var(--yi-border);
+  border-left: var(--yi-border);
+}
+
+.yi-borderTB {
+  border-top: var(--yi-border);
+  border-bottom: var(--yi-border);
+}
+
+.yi-borderT {
+  border-top: var(--yi-border);
+}
+
+.yi-borderB {
+  border-bottom: var(--yi-border);
+}
+
+
 /* fix :end */
 
 
@@ -30633,6 +30660,15 @@ span.svgIcon.Subscribe {
   --caing-mix: screen;
   --caing-mix-d: darken;
 
+
+
+  --yic-mix: darken;
+  --yic-mix-d: none;
+  --yi-border: var(--tc) clamp(0.125rem, -0.321rem + 1.3216vw, 0.3125rem) solid;
+  
+  
+
+
   --shadow-thin:var(--sd-thin);
   --sd-thin: rgba(0, 0, 0, 0.4) 0.125rem 0.125rem 0.25rem 0px;
   --shadow-light:var(--sd-light);
@@ -30675,12 +30711,23 @@ span.svgIcon.Subscribe {
   
   --tc-bp: var(--pr);
 
+  --pr-mix: var(--pr-mix-d);
+  
   --caing-rgb: var(--caing-rgb-d);
   --caing-mix: var(--caing-mix-d);
-  
-  
+
+ 
+  --yic-mix: var(--yic-mix-d);
+
+
+
+
+
+  --filter-yic: invert(98%) grayscale(10%) saturate(90%) brightness(60%) contrast(90%);
   --filter-low: brightness(.9) grayscale(.2) contrast(.9);
   --filter-box: sepia(.2);
+  --yilter: var(--yilter-d);
+
 
   --sd-thin:var(--sd-none);
   --sd-light:var(--sd-none);
