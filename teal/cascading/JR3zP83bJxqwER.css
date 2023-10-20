@@ -25610,7 +25610,7 @@ body.is-postEditMode .markup--comment {
 }
 
 .graf-image.bg-transparent,
-.bg-transparent 
+.bg-transparent,
 img.bg-transparent.lazyloaded
 {
   background: transparent !important;
@@ -26258,10 +26258,11 @@ section.is-imageBackgrounded .imageCaption,section[data-background-color]:not([d
 }
 
 .graf--h5 {
-  font-size: 27px;
+  font-size: clamp(1.4375rem, 1.2717rem + 0.7371vw, 1.625rem);
     letter-spacing: -.02em;
-    font-weight: 500;
-    font-family: 'sand sc';
+    /* font-weight: 500; */
+
+
 
 }
 
