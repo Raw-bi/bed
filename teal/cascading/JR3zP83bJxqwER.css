@@ -6787,6 +6787,11 @@ main {
   height: 50px!important
 }
 
+.u-size44x44 {
+  width: 44px!important;
+  height: 44px!important
+}
+
 .u-size60x60 {
   width: 60px!important;
   height: 60px!important
@@ -30740,8 +30745,8 @@ span.svgIcon.Subscribe {
   
   --ft-bg: 255, 241, 229;
   --ft-bg-d: 26, 24, 23;
-  --ft-rgb: 13, 118, 128;
-  --ft-rgb-d: 153, 15, 61;
+  --ft-rgb: 153, 15, 61;
+  --ft-rgb-d: 42, 99, 94;
   --ftm-rgb: 0 111 155;
   --ftm-rgb-d: 150, 204, 40;
 
