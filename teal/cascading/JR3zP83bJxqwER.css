@@ -30528,7 +30528,11 @@ svg.icon-premium-star {
     margin: -0.0625rem 0.2rem 0 0;
     text-transform: uppercase;
 }
-
+iframe.flourish-embed {
+    width: 100%;
+    height: clamp(37.5rem, 28.9525rem + 17.8306vw, 45rem);
+    filter: var(--filter-ft);
+}
 
 /* fix :end */
 
@@ -30673,8 +30677,10 @@ span.svgIcon.Subscribe {
   /* --bg-rgb: 244, 242, 237;
   --bg-rgb: 239, 238, 234; */
 
-  --bg-rgb: 238, 237, 233;
+  
+  --bg-rgb-l:238, 237, 233;
   --bg-rgb-d:16, 16, 16;
+  --bg-rgb: var(--bg-rgb-l);
   --bg: rgb(var(--bg-rgb));
 
   --tc-rgb: 0, 0, 0;
@@ -30732,7 +30738,12 @@ span.svgIcon.Subscribe {
   --yic-mix-d: none;
   --yic-border: var(--tc) clamp(0.125rem, -0.321rem + 1.3216vw, 0.3125rem) solid;
   
-  
+  --ft-bg: 255, 241, 229;
+  --ft-bg-d: 26, 24, 23;
+  --ft-rgb: 13, 118, 128;
+  --ft-rgb-d: 153, 15, 61;
+  --ftm-rgb: 0 111 155;
+  --ftm-rgb-d: 150, 204, 40;
 
 
   --shadow-thin:var(--sd-thin);
@@ -30763,7 +30774,7 @@ span.svgIcon.Subscribe {
 }
 
 [data-user-color-scheme="dark"] {
- 
+
   --bg-rgb: var(--bg-rgb-d);
   --tc-rgb: var(--tc-rgb-d);
   --tfw: var(--tfw-d);
@@ -30784,6 +30795,7 @@ span.svgIcon.Subscribe {
 
   --yic-mix: var(--yic-mix-d);
 
+  --filter-ft: invert(78%) brightness(69%);
   --filter-yic: invert(98%) grayscale(10%) saturate(90%) brightness(60%) contrast(90%);
   --filter-low: brightness(.9) grayscale(.2) contrast(.9);
   --filter-box: sepia(.2);
