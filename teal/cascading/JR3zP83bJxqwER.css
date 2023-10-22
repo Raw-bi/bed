@@ -30521,10 +30521,12 @@ svg.icon-premium-star {
 }
 
 .graf--p.lang-en.has-dropcap::first-letter {
-  font-size: 2em; 
-  float: left; 
-  margin-right: 5px;
-  margin-bottom: -0.2em;
+  font-size: 3.8125rem;
+    height: 3.375rem;
+    float: left;
+    line-height: 1;
+    margin: -0.0625rem 0.2rem 0 0;
+    text-transform: uppercase;
 }
 
 
