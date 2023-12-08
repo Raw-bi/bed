@@ -3970,8 +3970,8 @@
     });
     var i = n(3);
     function r() {
-        this._backgroundColor = "transparent",
-        this._foregroundColor = "var(--pr)",
+        this._backgroundColor = "#ffffff",
+        this._foregroundColor = "#1E1E1E",
         this._backgroundColorChange = new i.SignalDispatcher,
         this._foregroundColorChange = new i.SignalDispatcher
     }
