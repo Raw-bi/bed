@@ -31605,19 +31605,19 @@ span.svgIcon.Subscribe {
 @font-face {
   font-family: Matter;
   font-weight:300;
-  src: url("glyph/Z7ErNbBq864jAu.woff2") format("woff2");
+  src: url(glyph/Z7ErNbBq864jAu.woff2) format("woff2");
 }
 
 @font-face {
   font-family: Bi;
   font-weight:250;
-  src: url("glyph/7hwRs57tiykaNm.woff2") format("woff2");
+  src: url(glyph/7hwRs57tiykaNm.woff2) format("woff2");
 }
 
 @font-face {
   font-family: Bi;
   font-weight:300;
-  src: url("glyph/qX4gbUa5M7DPys.woff2") format("woff2");
+  src: url(glyph/qX4gbUa5M7DPys.woff2) format("woff2");
 }
 
 @font-face {
@@ -31650,16 +31650,16 @@ span.svgIcon.Subscribe {
 
 
 @font-face {
-  font-family: 'Bite';
+  font-family: Bite;
   font-style: 600;
   font-weight: normal;
-  src: url('glyph/b8114e43-e108-464a-8959-862d6cbf7e1f.woff2') format('woff2')
+  src: url(glyph/9sJ8V4AGRv6hDJ.woff2) format('woff2')
 } 
 
 
 @font-face {
   font-family: Bit;
-  src: url("glyph/He94pmX68bZeF2.woff2") format("woff2");
+  src: url(glyph/He94pmX68bZeF2.woff2) format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap
@@ -31687,7 +31687,7 @@ span.svgIcon.Subscribe {
 
 @font-face {
   font-family: Bie;
-  src: url('glyph/8T9kCrRgwuXYqb.woff2') format('woff2');
+  src: url(glyph/8T9kCrRgwuXYqb.woff2) format('woff2');
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -31695,7 +31695,7 @@ span.svgIcon.Subscribe {
 
 @font-face {
     font-family: Quill;
-     src: url('glyph/mYZEmrRwpoW3ub.woff2') format('woff2');
+     src: url(glyph/mYZEmrRwpoW3ub.woff2) format('woff2');
     font-style: normal;
     font-display: swap;
    
@@ -31703,24 +31703,24 @@ span.svgIcon.Subscribe {
 
 @font-face {
     font-family: Quillt;
-    src: url('glyph/fF6Gc7TSoZ83UU.woff2') format('woff2');
+    src: url(glyph/fF6Gc7TSoZ83UU.woff2) format('woff2');
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
+/* @font-face {
   font-family: microgramma;
   src: url('glyph/microgramma.woff') format('woff');
   font-style: normal;
   font-display: swap;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: noe;
   src: url('glyph/noe-display-500-normal.woff') format('woff');
   font-style: normal;
   font-display: swap;
-}
+} */
 
 
 
@@ -31730,7 +31730,7 @@ span.svgIcon.Subscribe {
   font-family: Denton;
   font-style: 600;
   font-weight: normal;
-  src: url('glyph/Denton-Bold.woff2') format('woff2')
+  src: url(glyph/hk5u9PQYA4szeF.woff2) format('woff2')
 }
 
 
