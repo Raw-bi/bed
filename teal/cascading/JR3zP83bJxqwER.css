@@ -11449,8 +11449,8 @@ main {
 font-size: 28px!important;
 }
 .uiScale-ui--small .ui-h2.ui-h2--smaller {
-  font-size: 22px!important;
-  line-height: 27px!important;
+  font-size: 24px!important;
+  /* line-height: 27px!important; */
   }
 
 .v-glyph--m2 .uiScale-ui--small .ui-h2 {
