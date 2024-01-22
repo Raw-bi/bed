@@ -8242,9 +8242,9 @@ main {
   fill: #fff!important
 }
 
-.u-textBorder {
+.u-borderText {
   color: transparent!important;
-  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke: 1px var(--pr);
 }
 
 .u-textColorPrimaryNormal {
