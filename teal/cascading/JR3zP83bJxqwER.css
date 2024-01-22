@@ -13977,7 +13977,7 @@ font-size: 28px!important;
 
   .uiScale-ui--small .ui-xs-h3.ui-clamp2 {
       overflow: hidden!important;
-      max-height: 48px!important;
+      max-height: 62px!important;
       text-overflow: ellipsis!important;
       display: -webkit-box!important;
       -webkit-line-clamp: 2!important;
@@ -15093,6 +15093,7 @@ body.is-swBoot {
     top: -5px;
     left: -5px;
   pointer-events: none;
+  fill: currentColor;
 }
 
 .avatar-halo--medium {
@@ -18833,10 +18834,11 @@ hr.homeHr {
 
 .overlay-content {
   color: rgba(var(--tc-rgb),0.8);
+  font-family: 'Bie';
   line-height: 1.28;
-  font-size: clamp(1.25rem, 1.1161rem + 0.5952vw, 1.5625rem);
+  font-size: clamp(1.4375rem, 1.3293rem + 0.4808vw, 1.75rem);
   margin-top: 5px;
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .overlay-actions>.button {
@@ -31337,7 +31339,7 @@ body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .m
   vertical-align: text-bottom;
 }
 
-.section-content .section-inner:nth-of-type(n+3) {
+.section-content .section-inner:nth-of-type(n+4) {
   content-visibility: auto;
   contain-intrinsic-size: 1000px;
 }
@@ -31595,6 +31597,8 @@ span.svgIcon.Subscribe {
   width: 150px;
 }
 
+
+
 @media (max-width: 888px) {
   .biAbsolute {
     transform: translate(-5px,0);
@@ -31606,6 +31610,17 @@ span.svgIcon.Subscribe {
     padding-right: 100px!important
 }
   }
+
+
+ @media (max-width: 500px) {
+
+.booby-gannet {
+    float: left;
+    position: relative;
+    width: 150px;
+    shape-outside: polygon(48.52% 0%, 24.41% 21.93%, 66.41% 53.04%, 100% 53.27%, 100% 61.44%, 75.7% 64.63%, 83.82% 74.76%, 83.82% 100%, 0% 100%, 0% 0%);
+  }
+  } 
 
   .u-bgColorPrimary .mixPrimary,
   .u-bgColorPrimary img.ls-blur-up-img.ls-blur-up-loaded.ls-inview  {
