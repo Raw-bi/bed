@@ -7258,6 +7258,20 @@ main {
   box-sizing: border-box
 }
 
+.u-height100vh-65 {
+  height: calc(100vh - 65px)!important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+@media screen and (max-width: 767px) {
+.u-height100vh-65 {
+  height: calc(100vh - 56px)!important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+}
+
 .u-height90vh {
   height: 90vh!important;
   -webkit-box-sizing: border-box;
@@ -31942,7 +31956,7 @@ span.svgIcon.Subscribe {
     --filter-ft: invert(78%) brightness(69%);
     --filter-yic: invert(98%) grayscale(10%) saturate(90%) brightness(60%) contrast(90%);
     --filter-low: brightness(.9) grayscale(.2) contrast(.9);
-    --filter-box: sepia(.2);
+    --filter-box: brightness(1.15);
   
   
   
@@ -31989,7 +32003,7 @@ span.svgIcon.Subscribe {
   --filter-ft: invert(78%) brightness(69%);
   --filter-yic: invert(98%) grayscale(10%) saturate(90%) brightness(60%) contrast(90%);
   --filter-low: brightness(.9) grayscale(.2) contrast(.9);
-  --filter-box: sepia(.2);
+  --filter-box: brightness(1.15);
 
 
 
