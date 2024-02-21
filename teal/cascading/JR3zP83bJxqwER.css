@@ -25159,7 +25159,8 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
     }
 
     .extremeHero-smallCard {
-        margin-bottom: 40px;
+        /*margin-bottom: 40px;*/
+         margin-bottom: 0;
         width: 100%
     }
 
