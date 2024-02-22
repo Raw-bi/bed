@@ -185,6 +185,45 @@
      src: url('../font/PublicoTextMono-BoldItalic-Web-cabdcc9a36.woff2') format('woff2')
  }
 
+ 
+    .bloomberg-chart {
+        font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif;
+        font-variation-settings: normal;
+        font-feature-settings: normal;
+        border-top: 1.5px dotted;
+    padding-top: 10px;
+    }
+    
+    .chart__title {
+        font-family: BWHaasGroteskWeb, Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        margin-bottom: 4px;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    
+    .chart__subtitle {
+        font-size: 17px;
+        line-height: 1.25;
+    }
+    
+    .styles_caption__JTuax {
+        font-style: normal;
+        font-family: BWHaasGrotesk-55Roman-Web, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.25;
+        
+        border-bottom: 1.5px dotted;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    }
+
+    .styles_caption__JTuax p {
+    margin-bottom: 2px;
+}
+
  /*——*/
 
  @font-face {
@@ -393,7 +432,7 @@
 
  .toaster-theme-bizweek h1,
  .toaster-theme-bizweek h2 {
-     color: #000001;
+     color: var(--tc);
      text-wrap: pretty;
      margin: 0
  }
@@ -413,7 +452,7 @@
  }
 
  .toaster-theme-bizweek a {
-     color: #000001
+     color: var(--tc)
  }
 
  .toaster-theme-bizweek svg {
@@ -439,13 +478,15 @@
      display: flex
  }
 
+
+
  .toaster-theme-bizweek.toaster-chart {
      font-size: 14px;
      line-height: 16px;
      padding: 20px 14px 12px 14px;
      position: relative;
      display: block;
-     color: #000001;
+     color: var(--tc);
      -webkit-font-smoothing: antialiased !important;
      -moz-osx-font-smoothing: grayscale
  }
@@ -598,12 +639,12 @@
  }
 
  .toaster-theme-bizweek .grid line {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1.3px
  }
 
  .toaster-theme-bizweek .grid line.zero-line {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1px
  }
 
@@ -612,12 +653,12 @@
  }
 
  .toaster-theme-bizweek .grid.vertical-grid line {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1px
  }
 
  .toaster-theme-bizweek .line-area {
-     fill: #000001;
+     fill: var(--tc);
      fill-opacity: 1;
      stroke-width: 1;
      stroke: transparent
@@ -637,7 +678,7 @@
  }
 
  .toaster-theme-bizweek text {
-     fill: #000001;
+     fill: var(--tc);
      font-family: "BWHaasDingbat", "BWHaasText", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", "Noto Sans Chinese", Arial, sans-serif
  }
 
@@ -648,22 +689,22 @@
  .toaster-theme-bizweek .axis path.domain,
  .toaster-theme-bizweek .axis .tick>line {
      stroke-width: 1px;
-     stroke: #000001
+     stroke: var(--tc)
  }
 
  .toaster-theme-bizweek .dual-axis-container .axis .tick>line,
  .toaster-theme-bizweek .dual-axis-container .axis .tick.base>line {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1.3px
  }
 
  .toaster-theme-bizweek .dual-axis-container .axis .tick.zero-line>line {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1px
  }
 
  .toaster-theme-bizweek .dual-axis-container .axis.no-line .tick>line {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1px
  }
 
@@ -672,7 +713,7 @@
  }
 
  .toaster-theme-bizweek .dual-axis-container .grid.vertical-grid line {
-     stroke: #000001
+     stroke: var(--tc)
  }
 
  .toaster-theme-bizweek .dual-axis-container .grid.hide-all-gridlines .tick>line {
@@ -694,7 +735,7 @@
  .toaster-theme-bizweek .annotations text {
      font-family: "BWHaasDingbat", "BWHaasText", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", "Noto Sans Chinese", Arial, sans-serif;
      font-size: 14px;
-     fill: #000001
+     fill: var(--tc)
  }
 
  .toaster-theme-bizweek .axis-y.variant-above text {
@@ -702,13 +743,13 @@
  }
 
  .toaster-theme-bizweek .axis-y .tick>line {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1.3px
  }
 
  .toaster-theme-bizweek .axis-y .tick.base>line,
  .toaster-theme-bizweek .axis-y .tick.zero-line>line {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1px
  }
 
@@ -725,7 +766,7 @@
  }
 
  .toaster-theme-bizweek.no-grid .axis-y .tick>line {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1px
  }
 
@@ -751,11 +792,11 @@
  }
 
  .toaster-theme-bizweek .axis-label {
-     fill: #000001
+     fill: var(--tc)
  }
 
  .toaster-theme-bizweek .annotations text {
-     fill: #000001
+     fill: var(--tc)
  }
 
  .toaster-theme-bizweek .axis-label-box {
@@ -820,7 +861,7 @@
  .toaster-theme-bizweek .footnote,
  .toaster-theme-bizweek .label-bottom,
  .toaster-theme-bizweek .label-top {
-     color: #000001
+     color: var(--tc)
  }
 
  .toaster-theme-bizweek .source,
@@ -847,7 +888,7 @@
 
  .toaster-theme-bizweek .annotations-footer {
      font-family: "BWHaasDingbat", "BWHaasText", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", "Noto Sans Chinese", Arial, sans-serif;
-     color: #000001
+     color: var(--tc)
  }
 
  .toaster-theme-bizweek .annotations-footer .star {
@@ -859,7 +900,7 @@
  }
 
  .toaster-theme-bizweek .axis-label-box text {
-     fill: #000001
+     fill: var(--tc)
  }
 
  .toaster-theme-bizweek .axis-label-box>rect {
@@ -867,14 +908,14 @@
  }
 
  .toaster-theme-bizweek text.column-label {
-     fill: #000001
+     fill: var(--tc)
  }
 
  .toaster-theme-bizweek .simple-legend {
      list-style-type: none;
      padding: 0;
      margin: 12px 0 0 2px;
-     color: #000001
+     color: var(--tc)
  }
 
  .toaster-theme-bizweek .simple-legend li {
@@ -944,7 +985,7 @@
      margin-top: 12px;
      min-height: 28px;
      font-weight: 600;
-     color: #000001
+     color: var(--tc)
  }
 
  .toaster-theme-bizweek .spread .toaster-chart .chart {
@@ -966,11 +1007,11 @@
  }
 
  .toaster-theme-bizweek .spread>.score-title {
-     color: #000001
+     color: var(--tc)
  }
 
  .toaster-theme-bizweek text.threshold-label {
-     fill: #000;
+     fill: var(--tc);
      text-shadow: -1px -1px 1px #fff, -1px -.5px 1px #fff, -1px 0 1px #fff, -1px .5px 1px #fff, -1px 1px 1px #fff, -.5px -1px 1px #fff, -.5px -.5px 1px #fff, -.5px 0 1px #fff, -.5px .5px 1px #fff, -.5px 1px 1px #fff, 0 -.5px 1px #fff, 0 -.5px 1px #fff, 0 1px 1px #fff, 0 1px 1px #fff, .5px -1px 1px #fff, .5px -.5px 1px #fff, .5px 0 1px #fff, .5px .5px 1px #fff, .5px 1px 1px #fff, 1px -1px 1px #fff, 1px -.5px 1px #fff, 1px 0 1px #fff, 1px .5px 1px #fff, 1px 1px 1px #fff
  }
 
@@ -990,7 +1031,7 @@
  }
 
  .toaster-theme-bizweek path.threshold-line {
-     stroke: #000;
+     stroke: var(--tc);
      stroke-width: 1.5;
      stroke-dasharray: 5 3
  }
@@ -1144,21 +1185,21 @@
 
  .toaster-theme-bizweek .bg.series-0,
  .toaster-theme-bizweek .series-0 {
-     background-color: #000001
+     background-color: var(--tc)
  }
 
  .toaster-theme-bizweek .c.series-0 {
-     color: #000001
+     color: var(--tc)
  }
 
  .toaster-theme-bizweek .f.series-0,
  .toaster-theme-bizweek .line-area.series-0 {
-     fill: #000001
+     fill: var(--tc)
  }
 
  .toaster-theme-bizweek .s.series-0,
  .toaster-theme-bizweek .series-0-stroke {
-     stroke: #000001
+     stroke: var(--tc)
  }
 
  .toaster-theme-bizweek .bg.series-1,
@@ -1343,7 +1384,7 @@
 
  .toaster-theme-bizweek.bar-colors .bg.series-0,
  .toaster-theme-bizweek.bar-colors .series-0 {
-     background-color: #000001
+     background-color: var(--tc)
  }
 
  .toaster-theme-bizweek.bar-colors .bg.series-1,
@@ -1392,7 +1433,7 @@
  }
 
  .toaster-theme-bizweek.bar-colors .c.series-0 {
-     color: #000001
+     color: var(--tc)
  }
 
  .toaster-theme-bizweek.bar-colors .c.series-1 {
@@ -1433,7 +1474,7 @@
 
  .toaster-theme-bizweek.bar-colors .f.series-0,
  .toaster-theme-bizweek.bar-colors .line-area.series-0 {
-     fill: #000001
+     fill: var(--tc)
  }
 
  .toaster-theme-bizweek.bar-colors .f.series-1,
@@ -1483,7 +1524,7 @@
 
  .toaster-theme-bizweek.bar-colors .s.series-0,
  .toaster-theme-bizweek.bar-colors .series-0-stroke {
-     stroke: #000001
+     stroke: var(--tc)
  }
 
  .toaster-theme-bizweek.bar-colors .s.series-1,
@@ -1562,7 +1603,7 @@
 
  .toaster-theme-bizweek.pie-colors .not-highlighted .bg.series-0,
  .toaster-theme-bizweek.pie-colors .not-highlighted .series-0 {
-     background-color: #000001
+     background-color: var(--tc)
  }
 
  .toaster-theme-bizweek.pie-colors .not-highlighted .bg.series-1,
@@ -1611,7 +1652,7 @@
  }
 
  .toaster-theme-bizweek.pie-colors .not-highlighted .c.series-0 {
-     color: #000001
+     color: var(--tc)
  }
 
  .toaster-theme-bizweek.pie-colors .not-highlighted .c.series-1 {
@@ -1652,7 +1693,7 @@
 
  .toaster-theme-bizweek.pie-colors .not-highlighted .f.series-0,
  .toaster-theme-bizweek.pie-colors .not-highlighted .line-area.series-0 {
-     fill: #000001
+     fill: var(--tc)
  }
 
  .toaster-theme-bizweek.pie-colors .not-highlighted .f.series-1,
@@ -1702,7 +1743,7 @@
 
  .toaster-theme-bizweek.pie-colors .not-highlighted .s.series-0,
  .toaster-theme-bizweek.pie-colors .not-highlighted .series-0-stroke {
-     stroke: #000001
+     stroke: var(--tc)
  }
 
  .toaster-theme-bizweek.pie-colors .not-highlighted .s.series-1,
@@ -1756,7 +1797,7 @@
 
  .toaster-theme-bizweek.pie-colors .highlight,
  .toaster-theme-bizweek.pie-colors .f.highlight {
-     fill: #000001
+     fill: var(--tc)
  }
 
  .toaster-theme-bizweek.area-colors .bg.series-0,
@@ -1787,7 +1828,7 @@
  }
 
  .toaster-theme-bizweek.toaster-chart-dumbbell .bar-group .dumbbell-bar {
-     fill: #000001
+     fill: var(--tc)
  }
 
  .toaster-theme-bizweek .simple-line .line,
@@ -1817,14 +1858,14 @@
  }
 
  .toaster-theme-bizweek .pie-container .label line {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1px
  }
 
  .toaster-theme-bizweek .pie-container .label text {
      alignment-baseline: text-after-edge;
      dominant-baseline: text-after-edge;
-     fill: #000001;
+     fill: var(--tc);
      text-anchor: start
  }
 
@@ -1860,8 +1901,8 @@
 
  .toaster-theme-bizweek .tooltip-label-box {
      background: var(--bg);
-     color: #000001;
-     border: solid 1px #000001;
+     color: var(--tc);
+     border: solid 1px var(--tc);
      -webkit-transition: left .18s linear;
      transition: left .18s linear;
      min-width: 85px;
@@ -1985,7 +2026,7 @@
  .toaster-theme-bizweek .tooltip-value.total {
      padding: 3px 0;
      margin: 5px 7px 0;
-     border-top: solid 1px #000001
+     border-top: solid 1px var(--tc)
  }
 
  .toaster-theme-bizweek .tooltip-value.total .left {
@@ -2004,20 +2045,20 @@
  .toaster-theme-bizweek .tooltip-anchor {
      r: 4.5;
      fill: #fff;
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1;
      z-index: 1
  }
 
  .toaster-theme-bizweek .tooltip-gridline {
-     stroke: #000001;
+     stroke: var(--tc);
      stroke-width: 1px;
      -webkit-transition: all .18s cubic-bezier(.78, -.135, .88, 1.245);
      transition: all .18s cubic-bezier(.78, -.135, .88, 1.245)
  }
 
  .toaster-theme-bizweek .annotations line {
-     stroke: #000001
+     stroke: var(--tc)
  }
 
  .toaster-theme-bizweek .annotations circle {
@@ -2031,7 +2072,7 @@
 
  .toaster-theme-bizweek text.condensed-annotation {
      text-shadow: none;
-     fill: #000001;
+     fill: var(--tc);
      font-weight: bold;
      font-size: 18px;
      text-anchor: start
@@ -2042,7 +2083,7 @@
  }
 
  .toaster-theme-bizweek .swatch {
-     border: solid 1px #000
+     border: solid 1px var(--tc)
  }
 
  .toaster-theme-bizweek .swatch.line {
@@ -2051,7 +2092,7 @@
 
  .toaster-theme-bizweek.toaster-chart rect.column {
      stroke-width: 1px;
-     stroke: #000
+     stroke: var(--tc)
  }
 
  .toaster-theme-bizweek.toaster-chart .logo {
@@ -2062,7 +2103,7 @@
 
  .toaster-theme-bizweek.toaster-chart .line-area {
      fill-opacity: 1;
-     stroke: #000;
+     stroke: var(--tc);
      stroke-width: .9
  }
 
@@ -2072,12 +2113,12 @@
 
  .toaster-theme-bizweek.toaster-chart .annotations circle {
      fill: #fff !important;
-     stroke: #000
+     stroke: var(--tc)
  }
 
  .toaster-theme-bizweek.toaster-chart .pie-container.not-highlighted path,
  .toaster-theme-bizweek.toaster-chart .pie-container.highlighted path {
-     stroke: #000;
+     stroke: var(--tc);
      stroke-width: 1px
  }
 
@@ -2086,7 +2127,7 @@
  }
 
  .toaster-theme-bizweek.toaster-chart .box-inner {
-     border: solid 1px #000
+     border: solid 1px var(--tc)
  }
 
  .toaster-theme-bizweek.toaster-chart .simple-line .line {
