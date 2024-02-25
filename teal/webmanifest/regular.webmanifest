@@ -1,0 +1,29 @@
+{
+    "name": "the.bi",
+    "start_url": "https://the.bi/s",
+    "short_name": "匕",
+    "icons": [
+        {
+            "src": "icon.jpg",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#000000d6",
+    "background_color": "#101010",
+    "display": "fullscreen ",
+     "screenshots": [
+    {
+      "src": "wide.jpg",
+      "sizes": "1920x1280",
+      "type": "image/jpg",
+      "form_factor": "wide"
+    },
+    {
+      "src": "narrow.jpg",
+      "sizes": "1080x2337",
+      "type": "image/jpg",
+      "form_factor": "narrow"
+    }
+  ]
+}
