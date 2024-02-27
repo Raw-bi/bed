@@ -32636,6 +32636,10 @@ iframe.flourish-embed {
     filter: var(--filter-ft);
 }
 
+.graphic-ft .ls-blur-up-img, 
+.graphic-ft .graf-image--src {
+    filter: var(--filter-ft);
+}
 
 
 .graf--title.lang-en.eng-tny {
