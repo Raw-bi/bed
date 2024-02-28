@@ -32884,6 +32884,19 @@ div#progress [id^=SvgjsPath] {
     max-width: 90%;
 }
 
+    .c-page-title__decoration {
+    margin: 60px auto 40px;
+    display: block;
+    width: 250px;
+}
+
+            .c-page-title__decoration svg {
+
+    display: block;
+    fill: var(--pr);
+    margin-bottom: 10px;
+}
+
 
 
 /* fix :end */
