@@ -1614,7 +1614,7 @@
 
 .toaster-theme-business.quad-colors .f.series-0,
 .toaster-theme-business.quad-colors .line-area.series-0 {
-    fill: var(--tc)
+    fill: var(--tc) !important
 }
 
 .toaster-theme-business.quad-colors .f.series-1,
@@ -2127,7 +2127,7 @@
 }
 
 .toaster-theme-business .tooltip-label-box {
-    background: transparent;
+    background: var(--bg);
     color: var(--tc);
     border: solid 1px var(--tc);
     -webkit-transition: left .18s linear;
