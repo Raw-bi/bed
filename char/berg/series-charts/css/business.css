@@ -418,13 +418,13 @@
 }
 
 .toaster-iframe {
-    background: #fff;
+    background: transparent;
     padding: 0;
     margin: 0
 }
 
 .toaster-theme-business {
-    background: #fff;
+    background: transparent;
     font-family: "BWHaasDingbat", "BWHaasText", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", "Noto Sans Chinese", Arial, sans-serif;
     font-size: 14px;
     line-height: 16px;
@@ -433,7 +433,7 @@
 
 .toaster-theme-business h1,
 .toaster-theme-business h2 {
-    color: #000;
+    color: var(--tc);
     text-wrap: pretty;
     margin: 0
 }
@@ -453,7 +453,7 @@
 }
 
 .toaster-theme-business a {
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business svg {
@@ -485,7 +485,7 @@
     padding: 20px 14px 12px 14px;
     position: relative;
     display: block;
-    color: #000;
+    color: var(--tc);
     -webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale
 }
@@ -657,7 +657,7 @@
 }
 
 .toaster-theme-business .line-area {
-    fill: #000;
+    fill: var(--tc);
     fill-opacity: 1;
     stroke-width: 1;
     stroke: transparent
@@ -677,7 +677,7 @@
 }
 
 .toaster-theme-business text {
-    fill: #000001;
+    fill: var(--tc)001;
     font-family: "BWHaasDingbat", "BWHaasText", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", "Noto Sans Chinese", Arial, sans-serif
 }
 
@@ -688,7 +688,7 @@
 .toaster-theme-business .axis path.domain,
 .toaster-theme-business .axis .tick>line {
     stroke-width: 1px;
-    stroke: #000001
+    stroke: var(--tc)001
 }
 
 .toaster-theme-business .dual-axis-container .axis .tick>line,
@@ -698,12 +698,12 @@
 }
 
 .toaster-theme-business .dual-axis-container .axis .tick.zero-line>line {
-    stroke: #000001;
+    stroke: var(--tc)001;
     stroke-width: 1px
 }
 
 .toaster-theme-business .dual-axis-container .axis.no-line .tick>line {
-    stroke: #000001;
+    stroke: var(--tc)001;
     stroke-width: 1px
 }
 
@@ -734,7 +734,7 @@
 .toaster-theme-business .annotations text {
     font-family: "BWHaasDingbat", "BWHaasText", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", "Noto Sans Chinese", Arial, sans-serif;
     font-size: 14px;
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business .axis-y.variant-above text {
@@ -748,7 +748,7 @@
 
 .toaster-theme-business .axis-y .tick.base>line,
 .toaster-theme-business .axis-y .tick.zero-line>line {
-    stroke: #000001;
+    stroke: var(--tc)001;
     stroke-width: 1px
 }
 
@@ -765,7 +765,7 @@
 }
 
 .toaster-theme-business.no-grid .axis-y .tick>line {
-    stroke: #000001;
+    stroke: var(--tc)001;
     stroke-width: 1px
 }
 
@@ -791,11 +791,11 @@
 }
 
 .toaster-theme-business .axis-label {
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business .annotations text {
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business .axis-label-box {
@@ -860,7 +860,7 @@
 .toaster-theme-business .footnote,
 .toaster-theme-business .label-bottom,
 .toaster-theme-business .label-top {
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business .source,
@@ -887,7 +887,7 @@
 
 .toaster-theme-business .annotations-footer {
     font-family: "BWHaasDingbat", "BWHaasText", "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", "Noto Sans Chinese", Arial, sans-serif;
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business .annotations-footer .star {
@@ -899,22 +899,22 @@
 }
 
 .toaster-theme-business .axis-label-box text {
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business .axis-label-box>rect {
-    fill: #fff
+    fill: transparent
 }
 
 .toaster-theme-business text.column-label {
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business .simple-legend {
     list-style-type: none;
     padding: 0;
     margin: 12px 0 0 2px;
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business .simple-legend li {
@@ -984,7 +984,7 @@
     margin-top: 12px;
     min-height: 28px;
     font-weight: 600;
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business .spread .toaster-chart .chart {
@@ -1006,16 +1006,16 @@
 }
 
 .toaster-theme-business .spread>.score-title {
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business text.threshold-label {
-    fill: #000;
-    text-shadow: -1px -1px 1px #fff, -1px -.5px 1px #fff, -1px 0 1px #fff, -1px .5px 1px #fff, -1px 1px 1px #fff, -.5px -1px 1px #fff, -.5px -.5px 1px #fff, -.5px 0 1px #fff, -.5px .5px 1px #fff, -.5px 1px 1px #fff, 0 -.5px 1px #fff, 0 -.5px 1px #fff, 0 1px 1px #fff, 0 1px 1px #fff, .5px -1px 1px #fff, .5px -.5px 1px #fff, .5px 0 1px #fff, .5px .5px 1px #fff, .5px 1px 1px #fff, 1px -1px 1px #fff, 1px -.5px 1px #fff, 1px 0 1px #fff, 1px .5px 1px #fff, 1px 1px 1px #fff
+    fill: var(--tc);
+    text-shadow: -1px -1px 1px transparent, -1px -.5px 1px transparent, -1px 0 1px transparent, -1px .5px 1px transparent, -1px 1px 1px transparent, -.5px -1px 1px transparent, -.5px -.5px 1px transparent, -.5px 0 1px transparent, -.5px .5px 1px transparent, -.5px 1px 1px transparent, 0 -.5px 1px transparent, 0 -.5px 1px transparent, 0 1px 1px transparent, 0 1px 1px transparent, .5px -1px 1px transparent, .5px -.5px 1px transparent, .5px 0 1px transparent, .5px .5px 1px transparent, .5px 1px 1px transparent, 1px -1px 1px transparent, 1px -.5px 1px transparent, 1px 0 1px transparent, 1px .5px 1px transparent, 1px 1px 1px transparent
 }
 
 .toaster-theme-business .screenshot-mode text.threshold-label {
-    text-shadow: -2px -2px 2px #fff, -2px -1px 2px #fff, -2px 0 2px #fff, -2px 1px 2px #fff, -2px 2px 2px #fff, -1px -2px 2px #fff, -1px -1px 2px #fff, -1px 0 2px #fff, -1px 1px 2px #fff, -1px 2px 2px #fff, 0 -2px 2px #fff, 0 -1px 2px #fff, 0 1px 2px #fff, 0 2px 2px #fff, 1px -2px 2px #fff, 1px -1px 2px #fff, 1px 0 2px #fff, 1px 1px 2px #fff, 1px 2px 2px #fff, 2px -2px 2px #fff, 2px -1px 2px #fff, 2px 0 2px #fff, 2px 1px 2px #fff, 2px 2px 2px #fff
+    text-shadow: -2px -2px 2px transparent, -2px -1px 2px transparent, -2px 0 2px transparent, -2px 1px 2px transparent, -2px 2px 2px transparent, -1px -2px 2px transparent, -1px -1px 2px transparent, -1px 0 2px transparent, -1px 1px 2px transparent, -1px 2px 2px transparent, 0 -2px 2px transparent, 0 -1px 2px transparent, 0 1px 2px transparent, 0 2px 2px transparent, 1px -2px 2px transparent, 1px -1px 2px transparent, 1px 0 2px transparent, 1px 1px 2px transparent, 1px 2px 2px transparent, 2px -2px 2px transparent, 2px -1px 2px transparent, 2px 0 2px transparent, 2px 1px 2px transparent, 2px 2px 2px transparent
 }
 
 .toaster-theme-business text.threshold-label.disable-shadow,
@@ -1024,13 +1024,13 @@
 }
 
 .toaster-theme-business path.threshold-line-background {
-    stroke: #fff;
+    stroke: transparent;
     stroke-width: 1.5;
     opacity: .4
 }
 
 .toaster-theme-business path.threshold-line {
-    stroke: #000;
+    stroke: var(--tc);
     stroke-width: 1.5;
     stroke-dasharray: 5 3
 }
@@ -1184,21 +1184,21 @@
 
 .toaster-theme-business .bg.series-0,
 .toaster-theme-business .series-0 {
-    background-color: #000
+    background-color: var(--tc)
 }
 
 .toaster-theme-business .c.series-0 {
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business .f.series-0,
 .toaster-theme-business .line-area.series-0 {
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business .s.series-0,
 .toaster-theme-business .series-0-stroke {
-    stroke: #000
+    stroke: var(--tc)
 }
 
 .toaster-theme-business .bg.series-1,
@@ -1383,7 +1383,7 @@
 
 .toaster-theme-business.bar-colors .bg.series-0,
 .toaster-theme-business.bar-colors .series-0 {
-    background-color: #000
+    background-color: var(--tc)
 }
 
 .toaster-theme-business.bar-colors .bg.series-1,
@@ -1432,7 +1432,7 @@
 }
 
 .toaster-theme-business.bar-colors .c.series-0 {
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business.bar-colors .c.series-1 {
@@ -1473,7 +1473,7 @@
 
 .toaster-theme-business.bar-colors .f.series-0,
 .toaster-theme-business.bar-colors .line-area.series-0 {
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business.bar-colors .f.series-1,
@@ -1523,7 +1523,7 @@
 
 .toaster-theme-business.bar-colors .s.series-0,
 .toaster-theme-business.bar-colors .series-0-stroke {
-    stroke: #000
+    stroke: var(--tc)
 }
 
 .toaster-theme-business.bar-colors .s.series-1,
@@ -1578,7 +1578,7 @@
 
 .toaster-theme-business.quad-colors .bg.series-0,
 .toaster-theme-business.quad-colors .series-0 {
-    background-color: #000
+    background-color: var(--tc)
 }
 
 .toaster-theme-business.quad-colors .bg.series-1,
@@ -1597,7 +1597,7 @@
 }
 
 .toaster-theme-business.quad-colors .c.series-0 {
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business.quad-colors .c.series-1 {
@@ -1614,7 +1614,7 @@
 
 .toaster-theme-business.quad-colors .f.series-0,
 .toaster-theme-business.quad-colors .line-area.series-0 {
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business.quad-colors .f.series-1,
@@ -1634,7 +1634,7 @@
 
 .toaster-theme-business.quad-colors .s.series-0,
 .toaster-theme-business.quad-colors .series-0-stroke {
-    stroke: #000
+    stroke: var(--tc)
 }
 
 .toaster-theme-business.quad-colors .s.series-1,
@@ -1659,7 +1659,7 @@
 
 .toaster-theme-business.pie-colors .not-highlighted .bg.series-0,
 .toaster-theme-business.pie-colors .not-highlighted .series-0 {
-    background-color: #000
+    background-color: var(--tc)
 }
 
 .toaster-theme-business.pie-colors .not-highlighted .bg.series-1,
@@ -1708,7 +1708,7 @@
 }
 
 .toaster-theme-business.pie-colors .not-highlighted .c.series-0 {
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business.pie-colors .not-highlighted .c.series-1 {
@@ -1749,7 +1749,7 @@
 
 .toaster-theme-business.pie-colors .not-highlighted .f.series-0,
 .toaster-theme-business.pie-colors .not-highlighted .line-area.series-0 {
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business.pie-colors .not-highlighted .f.series-1,
@@ -1799,7 +1799,7 @@
 
 .toaster-theme-business.pie-colors .not-highlighted .s.series-0,
 .toaster-theme-business.pie-colors .not-highlighted .series-0-stroke {
-    stroke: #000
+    stroke: var(--tc)
 }
 
 .toaster-theme-business.pie-colors .not-highlighted .s.series-1,
@@ -1848,7 +1848,7 @@
 }
 
 .toaster-theme-business.pie-colors .highlighted path {
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business.pie-colors .highlight,
@@ -1858,7 +1858,7 @@
 
 .toaster-theme-business.area-colors .bg.series-0,
 .toaster-theme-business.area-colors .series-0 {
-    background-color: #000
+    background-color: var(--tc)
 }
 
 .toaster-theme-business.area-colors .bg.series-1,
@@ -1907,7 +1907,7 @@
 }
 
 .toaster-theme-business.area-colors .c.series-0 {
-    color: #000
+    color: var(--tc)
 }
 
 .toaster-theme-business.area-colors .c.series-1 {
@@ -1948,7 +1948,7 @@
 
 .toaster-theme-business.area-colors .f.series-0,
 .toaster-theme-business.area-colors .line-area.series-0 {
-    fill: #000
+    fill: var(--tc)
 }
 
 .toaster-theme-business.area-colors .f.series-1,
@@ -1998,7 +1998,7 @@
 
 .toaster-theme-business.area-colors .s.series-0,
 .toaster-theme-business.area-colors .series-0-stroke {
-    stroke: #000
+    stroke: var(--tc)
 }
 
 .toaster-theme-business.area-colors .s.series-1,
@@ -2075,7 +2075,7 @@
 }
 
 .toaster-theme-business .pie-container.highlighted path {
-    stroke: #fff;
+    stroke: transparent;
     stroke-width: 1.5px
 }
 
@@ -2085,14 +2085,14 @@
 }
 
 .toaster-theme-business .pie-container .label line {
-    stroke: #000;
+    stroke: var(--tc);
     stroke-width: 1px
 }
 
 .toaster-theme-business .pie-container .label text {
     alignment-baseline: text-after-edge;
     dominant-baseline: text-after-edge;
-    fill: #000;
+    fill: var(--tc);
     text-anchor: start
 }
 
@@ -2127,9 +2127,9 @@
 }
 
 .toaster-theme-business .tooltip-label-box {
-    background: #fff;
-    color: #000;
-    border: solid 1px #000;
+    background: transparent;
+    color: var(--tc);
+    border: solid 1px var(--tc);
     -webkit-transition: left .18s linear;
     transition: left .18s linear;
     min-width: 85px;
@@ -2164,7 +2164,7 @@
 
 .toaster-theme-business .tooltip-valueline {
     position: absolute;
-    color: #fff;
+    color: transparent;
     padding: 4px 8px 0;
     height: 16px;
     font-size: 14px;
@@ -2253,7 +2253,7 @@
 .toaster-theme-business .tooltip-value.total {
     padding: 3px 0;
     margin: 5px 7px 0;
-    border-top: solid 1px #000
+    border-top: solid 1px var(--tc)
 }
 
 .toaster-theme-business .tooltip-value.total .left {
@@ -2271,21 +2271,21 @@
 
 .toaster-theme-business .tooltip-anchor {
     r: 4.5;
-    fill: #fff;
-    stroke: #000001;
+    fill: transparent;
+    stroke: var(--tc)001;
     stroke-width: 1;
     z-index: 1
 }
 
 .toaster-theme-business .tooltip-gridline {
-    stroke: #000001;
+    stroke: var(--tc)001;
     stroke-width: 1px;
     -webkit-transition: all .18s cubic-bezier(.78, -.135, .88, 1.245);
     transition: all .18s cubic-bezier(.78, -.135, .88, 1.245)
 }
 
 .toaster-theme-business .annotations line {
-    stroke: #000
+    stroke: var(--tc)
 }
 
 .toaster-theme-business .annotations circle {
@@ -2294,12 +2294,12 @@
 
 .toaster-theme-business .annotations text {
     text-anchor: end;
-    text-shadow: -1px -1px 1px #fff, -1px -.5px 1px #fff, -1px 0 1px #fff, -1px .5px 1px #fff, -1px 1px 1px #fff, -.5px -1px 1px #fff, -.5px -.5px 1px #fff, -.5px 0 1px #fff, -.5px .5px 1px #fff, -.5px 1px 1px #fff, 0 -.5px 1px #fff, 0 -.5px 1px #fff, 0 1px 1px #fff, 0 1px 1px #fff, .5px -1px 1px #fff, .5px -.5px 1px #fff, .5px 0 1px #fff, .5px .5px 1px #fff, .5px 1px 1px #fff, 1px -1px 1px #fff, 1px -.5px 1px #fff, 1px 0 1px #fff, 1px .5px 1px #fff, 1px 1px 1px #fff
+    text-shadow: -1px -1px 1px transparent, -1px -.5px 1px transparent, -1px 0 1px transparent, -1px .5px 1px transparent, -1px 1px 1px transparent, -.5px -1px 1px transparent, -.5px -.5px 1px transparent, -.5px 0 1px transparent, -.5px .5px 1px transparent, -.5px 1px 1px transparent, 0 -.5px 1px transparent, 0 -.5px 1px transparent, 0 1px 1px transparent, 0 1px 1px transparent, .5px -1px 1px transparent, .5px -.5px 1px transparent, .5px 0 1px transparent, .5px .5px 1px transparent, .5px 1px 1px transparent, 1px -1px 1px transparent, 1px -.5px 1px transparent, 1px 0 1px transparent, 1px .5px 1px transparent, 1px 1px 1px transparent
 }
 
 .toaster-theme-business text.condensed-annotation {
     text-shadow: none;
-    fill: #000;
+    fill: var(--tc);
     font-weight: bold;
     font-size: 18px;
     text-anchor: start
