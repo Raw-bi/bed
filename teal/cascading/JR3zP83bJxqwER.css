@@ -32622,7 +32622,8 @@ body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .m
 }
 
 .graf--p.lang-en,
-.graf--subtitle.lang-en {
+.graf--subtitle.lang-en,
+.graf--li.lang-en {
     line-height: 1.4;
     font-weight: 300;
     font-feature-settings: "onum" on;
