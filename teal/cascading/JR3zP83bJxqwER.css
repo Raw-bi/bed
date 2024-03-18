@@ -27456,7 +27456,8 @@ font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on, "qwid" on;
 }
 
 .graf--li {
-    font: var(--tfw) var(--tfs)/1.48 var(--tff)
+    font: var(--tfw) var(--tfs)/1.48 var(--tff);
+        font-feature-settings: "dlig" on, "ss02" on, "ss03" on, "case" on, "qwid" on;
 }
 
 ul.postList>li:before {
