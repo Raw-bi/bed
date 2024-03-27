@@ -8687,6 +8687,16 @@ main {
     font-size: 202px !important
 }
 
+.u-fontSize104 {
+    font-size: 104% !important
+}
+
+
+
+.u-fontSize110 {
+    font-size: 110% !important
+}
+
 @media screen and (max-width: 1040px) {
     .u-sm-fontSize14 {
         font-size: 16px !important
