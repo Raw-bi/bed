@@ -118,6 +118,15 @@
      font-display: optional;
  }
 
+tspan.highcharts-br {
+    color: transparent;
+    fill: transparent;
+}
+
+.highcharts-popup.highcharts-annotation-toolbar {
+    display: none !important;
+}
+
  .wsj-digital .highcharts-crosshair {
      stroke-width: 0px;
  }
