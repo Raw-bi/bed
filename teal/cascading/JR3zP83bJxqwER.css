@@ -6922,6 +6922,11 @@ main {
     height: 60px !important
 }
 
+.u-size70x70 {
+    width: 70px !important;
+    height: 70px !important
+}
+
 .u-size85x85 {
     width: 85px !important;
     height: 85px !important
@@ -8834,12 +8839,12 @@ main {
 }
 
 .u-lineHeightTighter {
-    line-height: 1.1 !important
+    line-height: 1.28 !important
 }
 
 .u-lineHeightTightest {
     line-height: 1.1 !important;
-    line-height: 1.28
+    
 }
 
 .u-lineHeight0 {
