@@ -7639,6 +7639,10 @@ main {
 }
 
 .u-backgroundColor {
+    background-color: var(--bg) !important
+}
+
+.u-backgroundColor2 {
     background-color: var(--bg-2) !important
 }
 
@@ -28313,6 +28317,10 @@ p[data-align=center] {
 
 .postArticle-content .graf--p {
     margin-top: 38px
+}
+
+.postArticle-content .graf--p.graf-after--audioPlayer {
+    margin-top: 10px;
 }
 
 .graf--p.graf-after--blockquote,
