@@ -904,7 +904,7 @@
  }
 
  .toaster-theme-bizweek .axis-label-box>rect {
-     fill: #fff
+     fill: var(--bg)
  }
 
  .toaster-theme-bizweek text.column-label {
