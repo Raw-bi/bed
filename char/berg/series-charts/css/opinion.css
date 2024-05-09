@@ -903,7 +903,7 @@
 }
 
 .toaster-theme-opinion .axis-label-box>rect {
-    fill: transparent
+    fill: var(--bg)
 }
 
 .toaster-theme-opinion text.column-label {
