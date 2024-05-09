@@ -903,7 +903,7 @@
 }
 
 .toaster-theme-business .axis-label-box>rect {
-    fill: transparent
+    fill: var(--bg)
 }
 
 .toaster-theme-business text.column-label {
