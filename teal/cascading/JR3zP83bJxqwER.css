@@ -7638,6 +7638,14 @@ main {
     background-color: #fff !important
 }
 
+.u-backgroundBlack {
+    background: #000 !important
+}
+
+.u-backgroundColorBlack {
+    background-color: #000 !important
+}
+
 .u-backgroundPrimary {
     background-color: var(--pr) !important
 }
@@ -33070,7 +33078,8 @@ body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .m
 
 .graf--p.lang-en,
 .graf--subtitle.lang-en,
-.graf--li.lang-en {
+.graf--li.lang-en,
+.graf--blockquote.lang-en {
     line-height: 1.4;
     font-weight: 300;
     font-feature-settings: "onum" on;
