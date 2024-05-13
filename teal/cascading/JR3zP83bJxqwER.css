@@ -33018,9 +33018,7 @@ body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .m
     box-shadow: var(--shadow-thin);
 }
 
-.graf--h4.graf-after--figure {
-    color: var(--h4);
-}
+
 
 
 .yic {
@@ -33063,7 +33061,7 @@ body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .m
 
 
 .graf--h4.lang-en {
-    font-size: 47px;
+    font-size: 40px;
 }
 
 @media (max-width: 767px) {
@@ -33072,7 +33070,7 @@ body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .m
     }
 
     .graf--h4.lang-en {
-        font-size: 37px;
+        font-size: 36px;
     }
 }
 
@@ -33706,7 +33704,7 @@ span.svgIcon.Subscribe {
     --macguffin-od-rgb: var(--pr-rgb-d);
 
 
-    --h4: var(--pr);
+
 
 
     --caing: rgb(var(--caing-rgb));
