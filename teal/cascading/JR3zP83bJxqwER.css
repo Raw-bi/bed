@@ -12642,15 +12642,16 @@ main {
     letter-spacing: 0 !important
 }
 
-.uiScale-caption--small .ui-caption {
+.uiScale-caption--small .ui-caption,
+.ui-caption.u-noWrapWithEllipsis {
     /*--x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;*/
     font-family: var(--tff);
     letter-spacing: -.01em;
-    /*font-weight: 400!important;
-  font-style: normal!important;*/
     font-size: 15px;
     line-height: 1.28;
+    /*font-weight: 400!important;
+  font-style: normal!important;*/
     /*-webkit-transform: translateY(1.8px);
   transform: translateY(1.8px)*/
 }
