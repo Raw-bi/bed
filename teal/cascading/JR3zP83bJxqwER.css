@@ -8364,6 +8364,8 @@ main {
     fill: rgba(var(--tc-rgb), .64)
 }
 
+
+
 .u-textColorNormalHover:hover {
     color: rgba(var(--tc-rgb), .64) !important;
     fill: rgba(var(--tc-rgb), .64) !important
@@ -8381,6 +8383,11 @@ main {
 .u-textColorDarker {
     color: rgba(var(--tc-rgb), .84) !important;
     fill: rgba(var(--tc-rgb), .84) !important
+}
+
+.u-textColorBlack {
+    color: rgba(0, 0, 0, .84);
+    fill: rgba(0, 0, 0, .84)
 }
 
 .u-textColorDarkest {
@@ -31764,6 +31771,15 @@ span.svgIcon.Subscribe {
     opacity: 0;
 }
 
+#stickyFooter {
+    background-color: var(--sfc);
+}
+
+#stickyFooter p  {
+    color: #21191c;
+    font-weight: 300;
+}
+
 #footer.visible {
     visibility: visible;
     opacity: 1;
@@ -31988,6 +32004,7 @@ span.svgIcon.Subscribe {
     --sd-box: 0 10px 20px rgba(0, 0, 0, .25), 0 8px 8px rgba(0, 0, 0, .22);
     --bg-brandSea-d: #35342c;
     --bg-brandPlum-d: #200a15;
+    --sfc: #ffdcc6;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -32018,6 +32035,7 @@ span.svgIcon.Subscribe {
         --sd-light: var(--sd-none);
         --sd-box: var(--sd-none);
         --sd-lighter: var(--sd-none);
+        --sfc: #f2bb98;
     }
 }
 
@@ -32044,4 +32062,5 @@ span.svgIcon.Subscribe {
     --sd-light: var(--sd-none);
     --sd-box: var(--sd-none);
     --sd-lighter: var(--sd-none);
+    --sfc: #f2bb98;
 }
