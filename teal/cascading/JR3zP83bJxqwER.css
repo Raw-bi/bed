@@ -8776,6 +8776,8 @@ main {
     font-size: 202px !important
 }
 
+
+
 .u-fontSize104 {
     font-size: 104% !important
 }
@@ -27320,6 +27322,12 @@ hr.section-divider:before {
     margin-top: 50px;
 }
 
+ .graf--figure.graf-after--p.wsj-char {
+    margin-top: 43px;
+}
+
+
+
 .graf--figure.graf-after--h2, .graf--mixtapeEmbed.graf-after--h2, .graf--pre.graf-after--h2 {
     margin-top: 46px
 }
@@ -27800,6 +27808,11 @@ section.is-imageBackgrounded+section.is-imageBackgrounded {
     .graf--figure.graf-after--blockquote, .graf--figure.graf-after--p, .graf--mixtapeEmbed.graf-after--blockquote, .graf--mixtapeEmbed.graf-after--p, .graf--pre.graf-after--blockquote, .graf--pre.graf-after--p, .postList+.graf--figure, .postList+.graf--mixtapeEmbed, .postList+.graf--pre {
         margin-top: 39px
     }
+
+
+   .graf--figure.graf-after--p.wsj-char {
+    margin-top: 33px;
+}
 
     .graf--figure.graf-after--h2, .graf--mixtapeEmbed.graf-after--h2, .graf--pre.graf-after--h2 {
         margin-top: 38px
