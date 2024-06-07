@@ -1,0 +1,155 @@
+/* Styles go in this file. */
+@font-face {
+  src: url("MetricWeb-Thin.woff2") format("woff2"), url("MetricWeb-Thin.woff") format("woff");
+  font-family: "MetricWeb";
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("MetricWeb-Light.woff2") format("woff2"), url("MetricWeb-Light.woff") format("woff");
+  font-family: "MetricWeb";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("MetricWeb-LightItalic.woff2") format("woff2"), url("MetricWeb-LightItalic.woff") format("woff");
+  font-family: "MetricWeb";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  src: url("MetricWeb-Regular.woff2") format("woff2"), url("MetricWeb-Regular.woff") format("woff");
+  font-family: "MetricWeb";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("MetricWeb-RegularItalic.woff2") format("woff2"), url("MetricWeb-RegularItalic.woff") format("woff");
+  font-family: "MetricWeb";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  src: url("MetricWeb-Medium.woff2") format("woff2"), url("MetricWeb-Medium.woff") format("woff");
+  font-family: "MetricWeb";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("MetricWeb-Semibold.woff2") format("woff2"), url("MetricWeb-Semibold.woff") format("woff");
+  font-family: "MetricWeb";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("MetricWeb-Bold.woff2") format("woff2"), url("MetricWeb-Bold.woff") format("woff");
+  font-family: "MetricWeb";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("MetricWeb-BoldItalic.woff2") format("woff2"), url("MetricWeb-BoldItalic.woff") format("woff");
+  font-family: "MetricWeb";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  src: url("MetricWeb-Black.woff2") format("woff2"), url("MetricWeb-Black.woff") format("woff");
+  font-family: "MetricWeb";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("FinancierDisplayWeb-Light.woff2") format("woff2"), url("FinancierDisplayWeb-Light.woff") format("woff");
+  font-family: "FinancierDisplayWeb";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("FinancierDisplayWeb-LightItalic.woff2") format("woff2"), url("FinancierDisplayWeb-LightItalic.woff") format("woff");
+  font-family: "FinancierDisplayWeb";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  src: url("FinancierDisplayWeb-Regular.woff2") format("woff2"), url("FinancierDisplayWeb-Regular.woff") format("woff");
+  font-family: "FinancierDisplayWeb";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("FinancierDisplayWeb-RegularItalic.woff2") format("woff2"), url("FinancierDisplayWeb-RegularItalic.woff") format("woff");
+  font-family: "FinancierDisplayWeb";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  src: url("FinancierDisplayWeb-MediumItalic.woff2") format("woff2"), url("FinancierDisplayWeb-MediumItalic.woff") format("woff");
+  font-family: "FinancierDisplayWeb";
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  src: url("FinancierDisplayWeb-Medium.woff2") format("woff2"), url("FinancierDisplayWeb-Medium.woff") format("woff");
+  font-family: "FinancierDisplayWeb";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("FinancierDisplayWeb-Semibold.woff2") format("woff2"), url("FinancierDisplayWeb-Semibold.woff") format("woff");
+  font-family: "FinancierDisplayWeb";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("FinancierDisplayWeb-SemiboldItalic.woff2") format("woff2"), url("FinancierDisplayWeb-SemiboldItalic.woff") format("woff");
+  font-family: "FinancierDisplayWeb";
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  src: url("FinancierDisplayWeb-Bold.woff2") format("woff2"), url("FinancierDisplayWeb-Bold.woff") format("woff");
+  font-family: "FinancierDisplayWeb";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  src: url("FinancierDisplayWeb-Black.woff2") format("woff2"), url("FinancierDisplayWeb-Black.woff") format("woff");
+  font-family: "FinancierDisplayWeb";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
