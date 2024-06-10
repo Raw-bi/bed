@@ -4078,6 +4078,11 @@ main {
         margin-left: -24px !important
     }
 
+    .u-xs-marginHorizontal-20 {
+        margin-left: -20px !important;
+        margin-right: -20px !important
+    }
+
     .u-xs-marginHorizontal-24 {
         margin-left: -24px !important;
         margin-right: -24px !important
