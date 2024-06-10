@@ -7521,7 +7521,8 @@ main {
 
 @media (max-width: 855px) {
     .u-xs-size12of12.d5YZZY66tesO5F {
-        width: 100% !important
+        width: 100% !important;
+        float: none !important;
     }
 
     .d5YZZY66tesO6F {
